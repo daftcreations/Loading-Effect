@@ -1,0 +1,36 @@
+body{
+  background-color: #3EC2CA;
+  margin:0px;
+}
+#main{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+#bg{
+  width:0px;
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  overflow:hidden;
+  z-index:-1;
+}
+#percentage{
+  font-family: brushed;
+  font-size:3cm;
+  color:white;
+  position:absolute;
+  top:200px;
+  left:80px;
+  z-index:9999;
+}
+#line{
+  width:0px;
+  height:600px;
+  border-left:1px dashed white;
+  position:absolute;
+  left:115px;
+  top:100px;
+  z-index:9999;
+}
